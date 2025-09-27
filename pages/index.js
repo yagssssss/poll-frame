@@ -11,7 +11,7 @@ export default function Home() {
         <meta property="fc:frame:button:2" content="🐶 Dogs" />
         <meta
           property="fc:frame:post_url"
-          content="https://poll-frame-z7e1-mkahctnuv-blurryfaces-projects-5b912df8.vercel.app/api/frame"
+          content="https://poll-frame-z7e1.vercel.app/api/frame"
         />
       </Head>
       <h1>Cats vs Dogs Poll</h1>
