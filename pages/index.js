@@ -1,7 +1,9 @@
+import Head from "next/head";
+
 export default function Home() {
   return (
     <>
-      <head>
+      <Head>
         <title>Cats vs Dogs Poll</title>
         <meta property="fc:frame" content="vNext" />
         <meta property="fc:frame:image" content="https://placekitten.com/600/400" />
@@ -9,9 +11,9 @@ export default function Home() {
         <meta property="fc:frame:button:2" content="🐶 Dogs" />
         <meta
           property="fc:frame:post_url"
-          content="http://localhost:3000/api/frame"
+          content="https://poll-frame-z7e1-mkahctnuv-blurryfaces-projects-5b912df8.vercel.app/api/frame"
         />
-      </head>
+      </Head>
       <h1>Cats vs Dogs Poll</h1>
       <p>Vote by clicking a button in Farcaster!</p>
     </>
