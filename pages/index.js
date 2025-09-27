@@ -11,11 +11,13 @@ export default function Home() {
         <meta property="fc:frame:button:2" content="🐶 Dogs" />
         <meta
           property="fc:frame:post_url"
-          content="https://poll-frame-z7e1.vercel.app/api/frame"
+          content="https://poll-frame-sfjc.vercel.app/api/frame"
         />
       </Head>
-      <h1>Cats vs Dogs Poll</h1>
-      <p>Vote by clicking a button in Farcaster!</p>
+      <main style={{ textAlign: "center", marginTop: "50px" }}>
+        <h1>Cats vs Dogs Poll</h1>
+        <p>Vote by clicking a button in Farcaster!</p>
+      </main>
     </>
   );
 }
