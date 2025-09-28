@@ -21,3 +21,19 @@ export default function Home() {
     </>
   );
 }
+import { useEffect } from "react";
+import { sdk } from "@farcaster/miniapp-sdk";
+
+export default function Home() {
+  useEffect(() => {
+    // When the app has mounted, tell Farcaster we're ready
+    sdk.actions.ready();
+  }, []);
+
+  return (
+    <div>
+      <h1>Cats vs Dogs Poll</h1>
+      <p>Vote by clicking a button in Farcaster!</p>
+    </div>
+  );
+}
